@@ -1,0 +1,49 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+.image {
+  width: 300px;
+}
+.up {
+ width: 100%;
+  .right {
+    position: absolute;
+  }
+}
+
+.child {
+  display: inline-block;
+  padding: 10px;
+}
+
+.down .right {
+  border-left: 1px solid black;
+}
+
+.line {
+  border: 1px solid;
+}
+
+.left {
+  width: 280px;
+}
+
+p {
+  font-size: 24px;
+}
+
+hr {
+  margin: auto;
+}
+
+.child_title {
+  font-size: 36px;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
