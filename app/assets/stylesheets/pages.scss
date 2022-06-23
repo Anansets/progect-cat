@@ -4,15 +4,27 @@
 .main {
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 800px;
+  background: #d6c9ea;
 }
 .image {
   width: 300px;
+}
+.image1 {
+
 }
 .up {
  width: 100%;
   .right {
     position: absolute;
+    background-image: url(background_cat.png);
+    background-size: cover;
+    width: 448px;
+    height: 413px;
+    margin-top: 10px;
+    p {
+      background: white;
+    }
   }
 }
 
@@ -20,17 +32,17 @@
   display: inline-block;
   padding: 10px;
 }
-
-.down .right {
-  border-left: 1px solid black;
+.down .left {
+  margin: 5px;
+  border: 10px solid #412b64;
 }
 
 .line {
-  border: 1px solid;
+  border: 3px solid;
 }
 
 .left {
-  width: 280px;
+  width: 316px;
 }
 
 p {
@@ -42,8 +54,14 @@ hr {
 }
 
 .child_title {
-  font-size: 36px;
+  font-size: 46px;
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.child_text {
+  font-size: 36px;
+  font-weight: bold;
 }
 
